@@ -1,0 +1,6 @@
+name,position,action,disable,source,destination,service,redir,redir_port,nat_addr,track,type
+rule1,1,accept,no,srv01,pub_range|int_range,https|http,,,,Log,rule
+rule2,2,accept,no,subnet1,srv01|host:www.nesehnuti.cz|host:ftp.cz.debian.org,https|http,,,,Log,rule
+rule3,3,accept,no,subnet1,any,https|http,,,,Log,rule
+rule4,4,accept,no,test_group,any,http,,,,Log,rule
+
